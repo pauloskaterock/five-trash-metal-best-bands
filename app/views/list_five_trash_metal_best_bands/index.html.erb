@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>List five trash metal best bands</h1>
+
+<div id="list_five_trash_metal_best_bands">
+  <% @list_five_trash_metal_best_bands.each do |list_five_trash_metal_best_band| %>
+    <%= render list_five_trash_metal_best_band %>
+    <p>
+      <%= link_to "Show this list five trash metal best band", list_five_trash_metal_best_band %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New list five trash metal best band", new_list_five_trash_metal_best_band_path %>

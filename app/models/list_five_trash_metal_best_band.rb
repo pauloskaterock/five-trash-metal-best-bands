@@ -1,0 +1,2 @@
+class ListFiveTrashMetalBestBand < ApplicationRecord
+end
